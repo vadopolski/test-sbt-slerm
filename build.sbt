@@ -16,8 +16,8 @@ val chimneyVersion = "0.6.1"
 
 libraryDependencies ++= Seq(
   "org.postgresql" % "postgresql" % postgresVersion,
-  "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
-  "org.apache.spark" %% "spark-sql" % sparkVersion % "provided",
+  "org.apache.spark" %% "spark-core" % sparkVersion,
+  "org.apache.spark" %% "spark-sql" % sparkVersion,
 "io.scalaland" %% "chimney" % chimneyVersion,
   "org.apache.logging.log4j" % "log4j-api" % logVersion,
   "org.apache.logging.log4j" % "log4j-core" % logVersion,
